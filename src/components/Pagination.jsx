@@ -11,7 +11,7 @@ export default function Pagination() {
     //     return pageNum < 3 ? 1 : pageNum;
     // }
 
-
+    console.log("hello");
     return <div className="pagenation">
         <Link to={`/page/${currentPage - 1}`} onClick={() => setCurrentPage(currentPage - 2)}>
             <PageBtn pageNumber="PREVIOUS" btnClass={currentPage === 1 ? "page-btn invisible-btn" : "page-btn"} />
