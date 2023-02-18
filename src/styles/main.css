@@ -1,0 +1,15 @@
+.challenges {
+  border: 1px solid blue;
+  height: 40px;
+  width: 80px;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.challenges:hover,
+.challenges:active {
+  background-color: blue;
+  color: white;
+}
