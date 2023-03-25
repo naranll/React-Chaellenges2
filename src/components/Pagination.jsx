@@ -7,6 +7,7 @@ export default function Pagination() {
     const [currentPage, setCurrentPage] = useState(1);
     // const [pageNumbers, setPageNumbers] = useState([])
     const last = 20;
+    console.log("testing");
 
 
     return <div className="pagenation">
